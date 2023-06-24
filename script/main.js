@@ -1,10 +1,16 @@
 // Cattura le dimensioni del dispositivo
 var larghezza = document.documentElement.clientWidth
 var altezza =document.documentElement.clientHeight
- 
+// Modifico le dimensioni del dispitivo per mantenere un rapporto di 2.16
+function calcolaDimensioni(altezza) {
+    const rapportoDesiderato = 2.16;
+    const larghezza = altezza / rapportoDesiderato;
+    return { altezza, larghezza };
+  }
   
-  console.log("Larghezza: " + larghezza + "px");
-  console.log("Altezza: " + altezza + "px");
+let risultato = calcolaDimensioni(altezza,larghezza)
+altezza = risultato.altezza
+larghezza = risultato.larghezza
   
 
 // Seleziona l'immagine
@@ -13,28 +19,9 @@ let immagine = document.createElement("img")
 let immagine2= document.createElement("img")
 let body = document.getElementsByTagName("body")[0]
 
-// Imposta le dimensioni dell'immagine
+immagine.style.width = larghezza + "px"
+immagine.style.height = altezza + "px"
 
-if(larghezza > 1290){
-    immagine.style.width = 1290 + "px";
-    immagine2.style.width = 1290 + "px";
-    console.log("Sono nell'if della larghezza");
-}
-else{
-    immagine.style.width = larghezza + "px";
-    immagine2.style.width = larghezza + "px";
-    console.log("altezza impostata normalmente");
-}
-if(altezza > 2796){
-    immagine.style.height = 2796 + "px";
-    immagine2.style.height = 2796 + "px";
-    console.log("Sono nell'if dell'altezza");
-}
-else{
-    immagine.style.height = altezza + "px";
-    immagine2.style.height = altezza + "px";
-    console.log("altezza impostata normalmente");
-}
 
 // Cattura dell'id della carta da uri
 const url = window.location.href;
@@ -69,9 +56,14 @@ fetch('/script/jsonCarte.json')
     
             var img1 = document.createElement('img');
             img1.src = carta.IMG[0];
+            img1.style.width = larghezza
+            img1.style.height = altezza
+  
     
             var img2 = document.createElement('img');
             img2.src = carta.IMG[1];
+            img2.style.width = larghezza
+            img2.style.height = altezza
     
             swiperSlide.appendChild(img1);
             swiperSlide2.appendChild(img2);
