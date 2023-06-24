@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.denari{
+    background-color: #FED404;
+}
+.bastoni{
+    background-color: #2A6219;
+}
+.coppe{
+    background-color: #ff001e;
+}
+.spade{
+    background-color: #0080c9;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+  }

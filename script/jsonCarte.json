@@ -1,0 +1,241 @@
+{
+    "carte": [
+      {
+        "id": "assoCoppe",
+        "IMG": "img/PDF-CARTE-COPPE.png",
+        "categoria":"coppe"
+      },
+      {
+        "id": "dueCoppe",
+        "IMG": "img/PDF-CARTE-COPPE2.png",
+        "categoria":"coppe"
+      },
+      {
+        "id": "treCoppe",
+        "IMG": "img/PDF-CARTE-COPPE3.png",
+        "categoria":"coppe"
+      },
+      {
+        "id": "quattroCoppe",
+        "IMG": "img/PDF-CARTE-COPPE4.png",
+        "categoria":"coppe"
+      },
+      {
+        "id": "cinqueCoppe",
+        "IMG": "img/PDF-CARTE-COPPE5.png",
+        "categoria":"coppe"
+      },
+      {
+        "id": "seiCoppe",
+        "IMG": "img/PDF-CARTE-COPPE6.png",
+        "categoria":"coppe"
+      },
+      {
+        "id": "setteCoppe",
+        "IMG": "img/PDF-CARTE-COPPE7.png",
+        "categoria":"coppe"
+      },
+      {
+        "id": "fanteCoppe",
+        "IMG": [
+          "img/PDF-CARTE-COPPE8.png",
+          "img/PDF-CARTE-COPPE-INFO8.png"
+        ],
+        "categoria":"coppe"
+      },
+      {
+        "id": "cavalloCoppe",
+        "IMG": [
+          "img/PDF-CARTE-COPPE9.png",
+          "img/PDF-CARTE-COPPE-INFO9.png"
+        ],
+        "categoria":"coppe"
+      },
+      {
+        "id": "reCoppe",
+        "IMG": [
+          "img/PDF-CARTE-COPPE10.png",
+          "img/PDF-CARTE-COPPE-INFO10.png"
+        ],
+        "categoria":"coppe"
+      },
+      {
+        "id": "assoDenari",
+        "IMG": "img/PDF-CARTE-DENARI1.png",
+        "categoria":"denari"
+      },
+      {
+        "id": "dueDenari",
+        "IMG": "img/PDF-CARTE-DENARI2.png",
+        "categoria":"denari"
+      },
+      {
+        "id": "treDenari",
+        "IMG": "img/PDF-CARTE-DENARI3.png",
+        "categoria":"denari"
+      },
+      {
+        "id": "quattroDenari",
+        "IMG": "img/PDF-CARTE-DENARI4.png",
+        "categoria":"denari"
+      },
+      {
+        "id": "cinqueDenari",
+        "IMG": "img/PDF-CARTE-DENARI5.png",
+        "categoria":"denari"
+      },
+      {
+        "id": "seiDenari",
+        "IMG": "img/PDF-CARTE-DENARI6.png",
+        "categoria":"denari"
+      },
+      {
+        "id": "setteDenari",
+        "IMG": "img/PDF-CARTE-DENARI7.png",
+        "categoria":"denari"
+      },
+      {
+        "id": "fanteDenari",
+        "IMG": [
+          "img/PDF-CARTE-DENARI8.png",
+          "img/PDF-CARTE-DENARI-INFO8.png"
+        ],
+        "categoria":"denari"
+      },
+      {
+        "id": "cavalloDenari",
+        "IMG": [
+          "img/PDF-CARTE-DENARI9.png",
+          "img/PDF-CARTE-DENARI-INFO9.png"
+        ],
+        "categoria":"denari"
+      },
+      {
+        "id": "reDenari",
+        "IMG": [
+          "img/PDF-CARTE-DENARI10.png",
+          "img/PDF-CARTE-DENARI-INFO10.png"
+        ],
+        "categoria":"denari"
+      },
+      {
+        "id": "assoSpade",
+        "IMG": "img/PDF-CARTE-SPADE.png",
+        "categoria":"spade"
+      },
+      {
+        "id": "dueSpade",
+        "IMG": "img/PDF-CARTE-SPADE2.png",
+        "categoria":"spade"
+      },
+      {
+        "id": "treSpade",
+        "IMG": "img/PDF-CARTE-SPADE3.png",
+        "categoria":"spade"
+      },
+      {
+        "id": "quattroSpade",
+        "IMG": "img/PDF-CARTE-SPADE4.png",
+        "categoria":"spade"
+      },
+      {
+        "id": "cinqueSpade",
+        "IMG": "img/PDF-CARTE-SPADE5.png",
+        "categoria":"spade"
+      },
+      {
+        "id": "seiSpade",
+        "IMG": "img/PDF-CARTE-SPADE6.png",
+        "categoria":"spade"
+      },
+      {
+        "id": "setteSpade",
+        "IMG": "img/PDF-CARTE-SPADE7.png",
+        "categoria":"spade"
+      },
+      {
+        "id": "fanteSpade",
+        "IMG": [
+          "img/PDF-CARTE-SPADE8.png",
+          "img/PDF-CARTE-SPADE-INFO8.png"
+        ],
+        "categoria":"spade"
+      },
+      {
+        "id": "cavalloSpade",
+        "IMG": [
+          "img/PDF-CARTE-SPADE9.png",
+          "img/PDF-CARTE-SPADE-INFO9.png"
+        ],
+        "categoria":"spade"
+      },
+      {
+        "id": "reSpade",
+        "IMG": [
+          "img/PDF-CARTE-SPADE10.png",
+          "img/PDF-CARTE-SPADE-INFO10.png"
+        ],
+        "categoria":"spade"
+      },
+      {
+        "id": "assoBastoni",
+        "IMG": "img/PDF-CARTE-BASTONI.png",
+        "categoria":"bastoni"
+      },
+      {
+        "id": "dueBastoni",
+        "IMG": "img/PDF-CARTE-BASTONI2.png",
+        "categoria":"bastoni"
+      },
+      {
+        "id": "treBastoni",
+        "IMG": "img/PDF-CARTE-BASTONI3.png",
+        "categoria":"bastoni"
+      },
+      {
+        "id": "quattroBastoni",
+        "IMG": "img/PDF-CARTE-BASTONI4.png",
+        "categoria":"bastoni"
+      },
+      {
+        "id": "cinqueBastoni",
+        "IMG": "img/PDF-CARTE-BASTONI5.png",
+        "categoria":"bastoni"
+      },
+      {
+        "id": "seiBastoni",
+        "IMG": "img/PDF-CARTE-BASTONI6.png",
+        "categoria":"bastoni"
+      },
+      {
+        "id": "setteBastoni",
+        "IMG": "img/PDF-CARTE-BASTONI7.png",
+        "categoria":"bastoni"
+      },
+      {
+        "id": "fanteBastoni",
+        "IMG": [
+          "img/PDF-CARTE-BASTONI8.png",
+          "img/PDF-CARTE-BASTONI-INFO8.png"
+        ],
+        "categoria":"bastoni"
+      },
+      {
+        "id": "cavalloBastoni",
+        "IMG": [
+          "img/PDF-CARTE-BASTONI9.png",
+          "img/PDF-CARTE-BASTONI-INFO9.png"
+        ],
+        "categoria":"bastoni"
+      },
+      {
+        "id": "reBastoni",
+        "IMG": [
+          "img/PDF-CARTE-BASTONI10.png",
+          "img/PDF-CARTE-BASTONI-INFO10.png"
+        ],
+        "categoria":"bastoni"
+      }
+    ]
+  }
+  
