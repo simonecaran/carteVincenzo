@@ -29,8 +29,8 @@ const url = window.location.href;
 const regex = /(?:[?&])nome=([^&#]+)/;
 const match = url.match(regex);
 const idCarta = match ? match[1] : null;
-let idCartaTitolo = idCarta.charAt(0).toUpperCase() + idCarta.slice(1)
-cambiaTitolo(idCartaTitolo);
+
+
 
 
 // Cambio dinamico delle immagini
@@ -38,7 +38,7 @@ fetch('/script/jsonCarte.json')
   .then(response => response.json())
   .then(jsonData => {
     let carta = jsonData.carte.find(c=> c.id == idCarta)
-    console.log(carta);
+    cambiaTitolo(carta.nome)
     if(carta){
         body.classList.add(carta.categoria);
         if(carta && carta.IMG.length === 2) {

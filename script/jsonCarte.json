@@ -3,37 +3,44 @@
       {
         "id": "assoCoppe",
         "IMG": "img/PDF-CARTE-COPPE.png",
-        "categoria":"coppe"
+        "categoria":"coppe",
+        "nome":"Asso di Coppe"
       },
       {
         "id": "dueCoppe",
         "IMG": "img/PDF-CARTE-COPPE2.png",
-        "categoria":"coppe"
+        "categoria":"coppe",
+        "nome":"Due di Coppe"
       },
       {
         "id": "treCoppe",
         "IMG": "img/PDF-CARTE-COPPE3.png",
-        "categoria":"coppe"
+        "categoria":"coppe",
+        "nome":"Tre di Coppe"
       },
       {
         "id": "quattroCoppe",
         "IMG": "img/PDF-CARTE-COPPE4.png",
-        "categoria":"coppe"
+        "categoria":"coppe",
+        "nome":"Quattro di Coppe"
       },
       {
         "id": "cinqueCoppe",
         "IMG": "img/PDF-CARTE-COPPE5.png",
-        "categoria":"coppe"
+        "categoria":"coppe",
+        "nome":"Cinque di Coppe"
       },
       {
         "id": "seiCoppe",
         "IMG": "img/PDF-CARTE-COPPE6.png",
-        "categoria":"coppe"
+        "categoria":"coppe",
+        "nome":"Sei di Coppe"
       },
       {
         "id": "setteCoppe",
         "IMG": "img/PDF-CARTE-COPPE7.png",
-        "categoria":"coppe"
+        "categoria":"coppe",
+        "nome":"Sette di Coppe"
       },
       {
         "id": "fanteCoppe",
@@ -41,7 +48,8 @@
           "img/PDF-CARTE-COPPE8.png",
           "img/PDF-CARTE-COPPE-INFO8.png"
         ],
-        "categoria":"coppe"
+        "categoria":"coppe",
+        "nome":"Fante di Coppe"
       },
       {
         "id": "cavalloCoppe",
@@ -49,7 +57,8 @@
           "img/PDF-CARTE-COPPE9.png",
           "img/PDF-CARTE-COPPE-INFO9.png"
         ],
-        "categoria":"coppe"
+        "categoria":"coppe",
+        "nome":"Cavallo di Coppe"
       },
       {
         "id": "reCoppe",
@@ -57,42 +66,50 @@
           "img/PDF-CARTE-COPPE10.png",
           "img/PDF-CARTE-COPPE-INFO10.png"
         ],
-        "categoria":"coppe"
+        "categoria":"coppe",
+        "nome":"Re di Coppe"
       },
       {
         "id": "assoDenari",
         "IMG": "img/PDF-CARTE-DENARI1.png",
-        "categoria":"denari"
+        "categoria":"denari",
+        "nome":"Asso di Denari"
       },
       {
         "id": "dueDenari",
         "IMG": "img/PDF-CARTE-DENARI2.png",
-        "categoria":"denari"
+        "categoria":"denari",
+        "nome":"Due di Denari"
       },
       {
         "id": "treDenari",
         "IMG": "img/PDF-CARTE-DENARI3.png",
-        "categoria":"denari"
+        "categoria":"denari",
+        "nome":"Tre di Denari"
       },
       {
         "id": "quattroDenari",
         "IMG": "img/PDF-CARTE-DENARI4.png",
-        "categoria":"denari"
+        "categoria":"denari",
+        "nome":"Quattro di Denari"
       },
       {
         "id": "cinqueDenari",
         "IMG": "img/PDF-CARTE-DENARI5.png",
-        "categoria":"denari"
+        "categoria":"denari",
+        "nome":"Cinque di Denari"
       },
       {
         "id": "seiDenari",
         "IMG": "img/PDF-CARTE-DENARI6.png",
-        "categoria":"denari"
+        "categoria":"denari",
+        "nome":"Sei di Denari"
       },
       {
         "id": "setteDenari",
         "IMG": "img/PDF-CARTE-DENARI7.png",
-        "categoria":"denari"
+        "categoria":"denari",
+        "nome":"Sette di Denari"
       },
       {
         "id": "fanteDenari",
@@ -100,7 +117,8 @@
           "img/PDF-CARTE-DENARI8.png",
           "img/PDF-CARTE-DENARI-INFO8.png"
         ],
-        "categoria":"denari"
+        "categoria":"denari",
+        "nome":"Fante di Denari"
       },
       {
         "id": "cavalloDenari",
@@ -108,7 +126,8 @@
           "img/PDF-CARTE-DENARI9.png",
           "img/PDF-CARTE-DENARI-INFO9.png"
         ],
-        "categoria":"denari"
+        "categoria":"denari",
+        "nome":"Cavallo di Denari"
       },
       {
         "id": "reDenari",
@@ -116,42 +135,50 @@
           "img/PDF-CARTE-DENARI10.png",
           "img/PDF-CARTE-DENARI-INFO10.png"
         ],
-        "categoria":"denari"
+        "categoria":"denari",
+        "nome":"Re di Denari"
       },
       {
         "id": "assoSpade",
         "IMG": "img/PDF-CARTE-SPADE.png",
-        "categoria":"spade"
+        "categoria":"spade",
+        "nome":"Asso di Spade"
       },
       {
         "id": "dueSpade",
         "IMG": "img/PDF-CARTE-SPADE2.png",
-        "categoria":"spade"
+        "categoria":"spade",
+        "nome":"Due di Spade"
       },
       {
         "id": "treSpade",
         "IMG": "img/PDF-CARTE-SPADE3.png",
-        "categoria":"spade"
+        "categoria":"spade",
+        "nome":"Tre di Spade"
       },
       {
         "id": "quattroSpade",
         "IMG": "img/PDF-CARTE-SPADE4.png",
-        "categoria":"spade"
+        "categoria":"spade",
+        "nome":"Quattro di Spade"
       },
       {
         "id": "cinqueSpade",
         "IMG": "img/PDF-CARTE-SPADE5.png",
-        "categoria":"spade"
+        "categoria":"spade",
+        "nome":"Cinque di Spade"
       },
       {
         "id": "seiSpade",
         "IMG": "img/PDF-CARTE-SPADE6.png",
-        "categoria":"spade"
+        "categoria":"spade",
+        "nome":"Sei di Spade"
       },
       {
         "id": "setteSpade",
         "IMG": "img/PDF-CARTE-SPADE7.png",
-        "categoria":"spade"
+        "categoria":"spade",
+        "nome":"Sette di Spade"
       },
       {
         "id": "fanteSpade",
@@ -159,7 +186,8 @@
           "img/PDF-CARTE-SPADE8.png",
           "img/PDF-CARTE-SPADE-INFO8.png"
         ],
-        "categoria":"spade"
+        "categoria":"spade",
+        "nome":"Fante di Spade"
       },
       {
         "id": "cavalloSpade",
@@ -167,7 +195,8 @@
           "img/PDF-CARTE-SPADE9.png",
           "img/PDF-CARTE-SPADE-INFO9.png"
         ],
-        "categoria":"spade"
+        "categoria":"spade",
+        "nome":"Cavallo di Spade"
       },
       {
         "id": "reSpade",
@@ -175,42 +204,50 @@
           "img/PDF-CARTE-SPADE10.png",
           "img/PDF-CARTE-SPADE-INFO10.png"
         ],
-        "categoria":"spade"
+        "categoria":"spade",
+        "nome":"Re di Spade"
       },
       {
         "id": "assoBastoni",
         "IMG": "img/PDF-CARTE-BASTONI.png",
-        "categoria":"bastoni"
+        "categoria":"bastoni",
+        "nome":"Asso di Bastoni"
       },
       {
         "id": "dueBastoni",
         "IMG": "img/PDF-CARTE-BASTONI2.png",
-        "categoria":"bastoni"
+        "categoria":"bastoni",
+        "nome":"Due di Bastoni"
       },
       {
         "id": "treBastoni",
         "IMG": "img/PDF-CARTE-BASTONI3.png",
-        "categoria":"bastoni"
+        "categoria":"bastoni",
+        "nome":"Tre di Bastoni"
       },
       {
         "id": "quattroBastoni",
         "IMG": "img/PDF-CARTE-BASTONI4.png",
-        "categoria":"bastoni"
+        "categoria":"bastoni",
+        "nome":"Quattro di Bastoni"
       },
       {
         "id": "cinqueBastoni",
         "IMG": "img/PDF-CARTE-BASTONI5.png",
-        "categoria":"bastoni"
+        "categoria":"bastoni",
+        "nome":"Cinque di Bastoni"
       },
       {
         "id": "seiBastoni",
         "IMG": "img/PDF-CARTE-BASTONI6.png",
-        "categoria":"bastoni"
+        "categoria":"bastoni",
+        "nome":"Sei di Bastoni"
       },
       {
         "id": "setteBastoni",
         "IMG": "img/PDF-CARTE-BASTONI7.png",
-        "categoria":"bastoni"
+        "categoria":"bastoni",
+        "nome":"Sette di Bastoni"
       },
       {
         "id": "fanteBastoni",
@@ -218,7 +255,8 @@
           "img/PDF-CARTE-BASTONI8.png",
           "img/PDF-CARTE-BASTONI-INFO8.png"
         ],
-        "categoria":"bastoni"
+        "categoria":"bastoni",
+        "nome":"Fante di Bastoni"
       },
       {
         "id": "cavalloBastoni",
@@ -226,7 +264,8 @@
           "img/PDF-CARTE-BASTONI9.png",
           "img/PDF-CARTE-BASTONI-INFO9.png"
         ],
-        "categoria":"bastoni"
+        "categoria":"bastoni",
+        "nome":"Cavallo di Bastoni"
       },
       {
         "id": "reBastoni",
@@ -234,7 +273,8 @@
           "img/PDF-CARTE-BASTONI10.png",
           "img/PDF-CARTE-BASTONI-INFO10.png"
         ],
-        "categoria":"bastoni"
+        "categoria":"bastoni",
+        "nome":"Re di Bastoni"
       }
     ]
   }
