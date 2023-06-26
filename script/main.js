@@ -21,7 +21,8 @@ let body = document.getElementsByTagName("body")[0]
 
 immagine.style.width = larghezza + "px"
 immagine.style.height = altezza + "px"
-
+immagine2.style.width = larghezza + "px"
+immagine2.style.height = altezza + "px"
 
 // Cattura dell'id della carta da uri
 const url = window.location.href;
@@ -45,7 +46,8 @@ fetch('/script/jsonCarte.json')
             // Creazione degli elementi del swiper
             var swiperContainer = document.createElement('div');
             swiperContainer.classList.add('swiper', 'mySwiper');
-    
+            swiperContainer.style.width = larghezza + "px"
+            swiperContainer.style.height = altezza + "px"
             var swiperWrapper = document.createElement('div');
             swiperWrapper.classList.add('swiper-wrapper');
     
@@ -54,19 +56,20 @@ fetch('/script/jsonCarte.json')
             var swiperSlide2 = document.createElement('div');
             swiperSlide2.classList.add('swiper-slide');
     
-            var img1 = document.createElement('img');
-            img1.src = carta.IMG[0];
-            img1.style.width = larghezza
-            img1.style.height = altezza
+            // var img1 = document.createElement('img');
+            // img1.src = carta.IMG[0];
+            // img1.style.width = larghezza
+            // img1.style.height = altezza
   
     
-            var img2 = document.createElement('img');
-            img2.src = carta.IMG[1];
-            img2.style.width = larghezza
-            img2.style.height = altezza
-    
-            swiperSlide.appendChild(img1);
-            swiperSlide2.appendChild(img2);
+            // var img2 = document.createElement('img');
+            // img2.src = carta.IMG[1];
+            // img2.style.width = larghezza
+            // img2.style.height = altezza
+            immagine.src = carta.IMG[0]
+            immagine2.src = carta.IMG[1]
+            swiperSlide.appendChild(immagine);
+            swiperSlide2.appendChild(immagine2);
     
             swiperWrapper.appendChild(swiperSlide);
             swiperWrapper.appendChild(swiperSlide2);
