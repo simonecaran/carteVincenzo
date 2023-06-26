@@ -26,7 +26,6 @@ immagine2.style.height = altezza + "px"
 
 // Cattura dell'id della carta da uri
 const url = window.location.href;
-console.log(url)
 const regex = /(?:[?&])nome=([^&#]+)/;
 const match = url.match(regex);
 const idCarta = match ? match[1] : null;
@@ -55,17 +54,7 @@ fetch('/script/jsonCarte.json')
             swiperSlide.classList.add('swiper-slide');
             var swiperSlide2 = document.createElement('div');
             swiperSlide2.classList.add('swiper-slide');
-    
-            // var img1 = document.createElement('img');
-            // img1.src = carta.IMG[0];
-            // img1.style.width = larghezza
-            // img1.style.height = altezza
-  
-    
-            // var img2 = document.createElement('img');
-            // img2.src = carta.IMG[1];
-            // img2.style.width = larghezza
-            // img2.style.height = altezza
+
             immagine.src = carta.IMG[0]
             immagine2.src = carta.IMG[1]
             swiperSlide.appendChild(immagine);
@@ -82,9 +71,10 @@ fetch('/script/jsonCarte.json')
             // Inizializzazione del swiper
             var swiper = new Swiper(".mySwiper", {
               effect: "flip",
-              grabCursor: true,
               loop: true
             });
+            immagine.addEventListener("click",changeImage)
+            immagine2.addEventListener("click",changeImage)
           } else {
             immagine.src = carta.IMG
             container.appendChild(immagine);
@@ -101,5 +91,21 @@ fetch('/script/jsonCarte.json')
 
   function cambiaTitolo(nuovoTitolo) {
     document.title = nuovoTitolo;
+  }
+
+  function changeImage() {
+    var swiper = document.querySelector('.mySwiper').swiper;
+    var currentSlideIndex = swiper.activeIndex; // Ottiene l'indice dell'immagine attualmente visualizzata
+
+    // Calcola l'indice dell'immagine successiva
+    var nextSlideIndex = currentSlideIndex + 1;
+
+    // Se l'immagine attuale è l'ultima, passa alla prima immagine
+    if (nextSlideIndex >= swiper.slides.length) {
+      nextSlideIndex = 0;
+    }
+
+    // Cambia l'immagine visualizzata in base all'indice calcolato
+    swiper.slideTo(nextSlideIndex); // Cambia l'immagine al click successivo
   }
   
